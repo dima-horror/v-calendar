@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = {
   css: {
-    extract: false,
+    extract: true,
   },
   outputDir: 'lib',
   configureWebpack: {
